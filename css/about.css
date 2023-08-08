@@ -1,0 +1,63 @@
+.hero {
+  align-items: center;
+  gap: 2rem;
+}
+
+.hero-header {
+  align-items: center;
+  text-align: center;
+}
+
+.hero-sub-header {
+  border: 1px solid #8383832e;
+  padding: 1rem;
+  background-color: #fff;
+  color: #515151;
+  line-height: 1.5rem;
+  text-align: center;
+}
+
+.hero-venue {
+  margin: 0 1rem;
+  text-align: center;
+}
+
+.hero-venue_date {
+  font-weight: 700;
+  color: #767676;
+  font-size: 0.75rem;
+  line-height: 1.5rem;
+}
+
+.hero-venue_email {
+  color: #5f5f5f;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.hero-venue_email:hover {
+  color: #ec5242;
+}
+
+.hero-header_border .border {
+  display: none;
+}
+
+/* desktop styles */
+@media screen and (min-width: 768px) {
+  .hero-sub-header {
+    max-width: 80%;
+    padding: 1.5rem 3rem;
+  }
+
+  .hero-header_border {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .hero-header_border .border {
+    display: block;
+  }
+}
