@@ -206,6 +206,25 @@
   height: 2rem;
 }
 
+.footer {
+  padding: 2rem 1.5rem;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  color: #272a31;
+  line-height: 1.5rem;
+}
+
+.footer-credit {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 /* desktop styles */
 @media screen and (min-width: 768px) {
   .hero_sub-header {
