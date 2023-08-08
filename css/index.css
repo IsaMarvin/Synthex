@@ -21,9 +21,97 @@
   font-size: 1.25rem;
 }
 
+.program {
+  padding: 2rem 1rem;
+  background-color: #282b32;
+  background-image: url(../images/programsBg.png);
+}
+
+.program-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.program-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.program-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.program-lecture {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex: 1;
+  padding: 0.75rem 0.75rem 1rem;
+  background-color: rgba(211, 211, 211, 0.12);
+}
+
+.program-lecture_title {
+  color: #ec5242;
+  font-weight: 700;
+}
+
+.program-lecture_info {
+  font-weight: 700;
+  color: #f3f1f1;
+}
+
+.program-button {
+  background-color: #ff4f38;
+  padding: 1.5rem;
+}
+
+.program-button_link {
+  color: #fff;
+  font-weight: 700;
+}
+
+.program-button_link:hover {
+  border-bottom: 1px solid #ec5242;
+  color: #ec5242;
+}
+
 /* desktop styles */
 @media screen and (min-width: 768px) {
   .hero_sub-header {
     max-width: 30rem;
+  }
+
+  .program-details {
+    flex-direction: row;
+    margin: 0 10vw;
+    gap: 0.1rem;
+  }
+
+  .program-lecture {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .program-lecture:hover {
+    border: 1px solid white;
+  }
+
+  .program-button {
+    background-color: transparent;
+  }
+
+  .program-button_link {
+    display: inline-block;
+    border-bottom: 1px solid white;
+    padding-block: 2px;
+    text-transform: uppercase;
   }
 }
