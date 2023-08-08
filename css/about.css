@@ -149,6 +149,30 @@
   text-align: center;
 }
 
+.footer {
+  padding: 2rem 1.5rem;
+  background-color: #272a31;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: #d3d3d3;
+  text-align: center;
+}
+
+.footer-credit {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.hide {
+  display: none;
+}
+
 /* desktop styles */
 @media screen and (min-width: 768px) {
   .hero-sub-header {
@@ -183,5 +207,16 @@
   .prev-event_imgs {
     flex-direction: row;
     width: 80%;
+  }
+
+  .footer-content {
+    width: 80%;
+    margin: 0 auto;
+    gap: 3rem;
+    text-align: start;
+  }
+
+  .hide {
+    display: block;
   }
 }
