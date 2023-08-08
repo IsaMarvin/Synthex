@@ -130,6 +130,41 @@ li {
   background-color: #ec5242;
 }
 
+.partners {
+  padding: 2rem;
+  background-color: #282b32;
+}
+
+.partners-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.partners-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  color: #d3d3d3;
+}
+
+.partners-logos {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+}
+
+.partners-logos img {
+  height: 2rem;
+}
+
 @media screen and (min-width: 768px) {
   .wrapper {
     background: none;

@@ -151,15 +151,14 @@
 
 .footer {
   padding: 2rem 1.5rem;
-  background-color: #272a31;
 }
 
 .footer-content {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
-  color: #d3d3d3;
+  gap: 3rem;
+  color: #515151;
   text-align: center;
 }
 
@@ -170,6 +169,14 @@
 }
 
 .hide {
+  display: none;
+}
+
+.footer-logo {
+  display: block;
+}
+
+.dark-logo {
   display: none;
 }
 
@@ -209,11 +216,27 @@
     width: 80%;
   }
 
+  .partners {
+    display: none;
+  }
+
+  .footer {
+    background-color: #272a31;
+  }
+
   .footer-content {
     width: 80%;
     margin: 0 auto;
-    gap: 3rem;
     text-align: start;
+    color: #d3d3d3;
+  }
+
+  .footer-logo {
+    display: none;
+  }
+
+  .dark-logo {
+    display: block;
   }
 
   .hide {
