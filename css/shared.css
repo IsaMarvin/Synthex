@@ -208,7 +208,7 @@ li {
   }
 
   .hero {
-    background-image: url(/images/bgDesktop.png);
+    background-image: url(../images/bgDesktop.png);
     background-position: center center;
     background-size: cover;
     margin: 0;
