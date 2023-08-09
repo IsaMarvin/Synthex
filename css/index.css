@@ -1,0 +1,257 @@
+.hero {
+  gap: 1.5rem;
+}
+
+.hero_sub-header {
+  border: 4px solid white;
+  padding: 1rem 0.75rem;
+  background-color: #f7f7f7;
+  color: #515151;
+  line-height: 1.5rem;
+}
+
+.hero-venue {
+  color: #868686;
+  font-weight: 700;
+}
+
+.hero-venue_date {
+  font-weight: 900;
+  color: #595959;
+  font-size: 1.25rem;
+}
+
+.program {
+  padding: 2rem 1rem;
+  background-color: #282b32;
+  background-image: url(../images/programsBg.png);
+}
+
+.program-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.program-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.program-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.program-lecture {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex: 1;
+  padding: 0.75rem 0.75rem 1rem;
+  background-color: rgba(211, 211, 211, 0.12);
+}
+
+.program-lecture_title {
+  color: #ec5242;
+  font-weight: 700;
+}
+
+.program-lecture_info {
+  font-weight: 700;
+  color: #f3f1f1;
+}
+
+.program-button {
+  background-color: #ff4f38;
+  padding: 1.5rem;
+}
+
+.program-button_link {
+  color: #fff;
+  font-weight: 700;
+}
+
+.program-button_link:hover {
+  border-bottom: 1px solid #ec5242;
+  color: #ec5242;
+}
+
+.speakers {
+  padding: 2rem 1rem 3rem;
+}
+
+.speakers-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.speakers-header {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+  text-align: center;
+}
+
+.speaker {
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 0.3rem;
+}
+
+.speaker-img {
+  width: 8rem;
+  max-width: 100%;
+}
+
+.speaker-name {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.speaker-title {
+  color: #ec5242;
+  font-style: italic;
+  font-size: 0.85rem;
+}
+
+.speaker-border {
+  width: 1rem;
+  height: 0.12rem;
+  background-color: #d9d9d9;
+}
+
+.speaker-description {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #272a31;
+}
+
+.speaker-button {
+  padding: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid #dcdcdc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  color: #272a31;
+  width: 100%;
+}
+
+.speaker-button_img {
+  align-self: center;
+  height: 0.5rem;
+  background-color: transparent;
+}
+
+.speakers-details {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  max-height: 1200px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.partners {
+  display: none;
+}
+
+.footer {
+  display: none;
+}
+
+/* desktop styles */
+@media screen and (min-width: 768px) {
+  .hero_sub-header {
+    max-width: 30rem;
+  }
+
+  .program-details {
+    flex-direction: row;
+    margin: 0 10vw;
+    gap: 0.1rem;
+  }
+
+  .program-lecture {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .program-lecture:hover {
+    border: 1px solid white;
+  }
+
+  .program-button {
+    background-color: transparent;
+  }
+
+  .program-button_link {
+    display: inline-block;
+    border-bottom: 1px solid white;
+    padding-block: 2px;
+    text-transform: uppercase;
+  }
+
+  .speakers-content {
+    margin: 0 auto;
+  }
+
+  .speakers-details {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70vw;
+    gap: 1.5rem;
+  }
+
+  .speaker {
+    flex-basis: calc(50% - 1rem);
+  }
+
+  .speaker-button {
+    display: none;
+  }
+
+  .partners {
+    display: block;
+  }
+
+  .footer {
+    display: block;
+    padding: 2rem 1.5rem;
+  }
+
+  .footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    color: #272a31;
+    line-height: 1.5rem;
+  }
+
+  .footer-credit {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+}
