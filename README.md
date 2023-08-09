@@ -135,9 +135,8 @@ Open index.html using live server extension.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [] **[Intuitive Navigation]**
-- [] **[Responsive Everywhere]**
-- [] **[Data Empowerment]**
+- [ ] **Codebase Refactor**
+- [ ] **Implementation of Remaining Pages**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
